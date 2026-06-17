@@ -1,8 +1,13 @@
+/*
+Crie a função chamada fatorial em C usando PThreads que receba um número e calcule o fatorial.  
+O resultado deve ser salvo em uma variável compartilhada. Na função main o programa deve ler da entrada padrão três números inteiros. 
+Crie 3 threads passando um valor para cada thread. Após as threads completarem o cálculo, apresente a soma dos fatoriais.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-
-
+ 
 typedef struct {
     int n;
     int i;

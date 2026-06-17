@@ -1,3 +1,13 @@
+/*
+Faça um programa que leia um valor inteiro x e que contenha duas funções: 
+a primeira deve verificar se o número é positivo e imprimir uma mensagem na tela 
+e a outra função deve verificar se o número for par e imprimir uma mensagem na tela. 
+No fluxo principal, crie uma thread para executar cada uma das funções, passando como parâmetro o valor lido x. 
+A função para verificação de positivo deve imprimir a mensagem “x is positive” se o valor recebido for positivo e, caso contrário, 
+finalizar a thread (utilize a função pthread_exit). 
+A função para verificação de par deve imprimir a mensagem “x is even” se o valor recebido for par e, caso contrário, finalizar a thread.
+*/
+ 
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>

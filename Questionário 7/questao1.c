@@ -1,7 +1,13 @@
+/*
+Faça um programa em C usando Pthread que cria três threads. 
+Cada thread deve imprimir na saída padrão a mensagem "Hello from thread". 
+Após a execução das 3 threads, o programa deve imprimir na saída padrão a mensagem "Hello from the main thread".
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-
+ 
 void * printThread(){
     printf("Hello from thread\n");
 

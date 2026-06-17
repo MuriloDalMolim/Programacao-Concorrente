@@ -1,5 +1,6 @@
 *
 !*/
 !*.c
+!*.java
 !.gitignore
 !README.md

@@ -1,3 +1,19 @@
+/*
+Faça um programa que leia um valor de dupla precisão (double) x e calcule o valor da função y=sin(3x)+√cos(x) . 
+O programa deverá conter duas funções: uma para calcular f1 = sin(3x) e a outra para calcular f2 = √cos(x) . C
+ada função deverá receber o valor de x como parâmetro e será executada por uma thread diferente. 
+Use variáveis globais (somente leitura) para salvar os valores de f1 e f2. 
+Após fazer a união das duas threads, a thread principal (main) deverá calcular o valor final y = f1 + f2 e imprimir o resultado na tela.
+
+Entrada:
+
+A entrada consiste em um valor de dupla precisão x que corresponde ao valor x nas fórmulas.
+
+Saída:
+
+A saída consiste no valor de y resultante da fórmula
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>

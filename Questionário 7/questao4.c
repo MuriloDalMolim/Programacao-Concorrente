@@ -1,7 +1,14 @@
+/*
+Faça um programa que lê um vetor de escopo global de 10 posições. Em seguida, seu programa deve criar duas threads. 
+Cada thread deve ler um número inteiro e deve fazer a multiplicação desse número em todas as posições do vetor. 
+Lembre-se que o acesso à variável compartilhada deve ser segura. 
+Após a execução a thread principal deve imprimir os valores do vetor separados por um espaço, como mostra o exemplo abaixo.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-
+ 
 int v[10];
 
 void *multiplicar(void * arg){
