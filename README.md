@@ -1,6 +1,6 @@
-# Questionários de Programação Concorrente
+# Repositório de Programação Concorrente
 
-Este repositório foi criado para armazenar e organizar as resoluções dos questionários da matéria de programação concorrente.
+Este repositório foi criado para armazenar e organizar as resoluções das atividades da disciplina de programação concorrente da UTFPR-DV, Engenharia de software.
 
 ## 📌 Conteúdo
 * Códigos-fonte em C (`.c`).
