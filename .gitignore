@@ -1,5 +1,9 @@
 *
+
 !*/
+.idea/
+out/
+
 !*.c
 !*.java
 !.gitignore
